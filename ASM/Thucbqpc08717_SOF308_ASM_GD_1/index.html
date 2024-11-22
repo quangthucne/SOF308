@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Trang chủ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://kit.fontawesome.com/27e6f9e8b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/bgdino.jpg" class="rounded-5" width="85" alt="">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsebleMenuMain" aria-controls="collapsebleMenuMain" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row" id="collapsebleMenuMain">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 col-md-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-current="page">Trang chủ
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Câu hỏi</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 col-md-8">
+                        <li class="nav-item w-75">
+                            <form class="d-flex my-2 my-lg-0">
+                                <input class="form-control me-sm-2" type="text" placeholder="Tìm kiếm câu hỏi?" />
+                                <button class="col-2 btn btn-outline-light my-2 my-sm-0" type="submit">
+                                    Tìm kiếm
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 col-md-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Tài khoản</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Đăng nhập</a>
+                                <a class="dropdown-item" href="#">Đăng kí</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="my-3">
+            <div class="container mt-2 mb-3">
+                <div class="row flex-row-reverse">
+                    <a class="col-md-1 btn btn-outline-warning rounded-5 ms-1" href="NewQuestion.html">Tạo câu hỏi</a>
+                    <span class="col-md-1 btn btn-outline-warning rounded-5 ms-1">Java</span>
+                    <span class="col-md-1 btn btn-outline-warning rounded-5 ms-1">Python</span>
+                    <span class="col-md-1 btn btn-outline-warning rounded-5 ms-1">C#</span>
+                    <span class="col-md-1 btn btn-outline-warning rounded-5 ms-1">C++</span>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="my-3">
+            <div class="container mt-4 mb-3">
+                <div class="card" id="question">
+                    <div class="container-fluid">
+                        <div class="container-fluid mt-4 mb-3">
+                            <div class="row mx-2">
+                                <div class="col-md-2 col-lg-1 col-sm-3 col-4 col-xl-1">
+                                    <img src="./img/z5149468489977_82d2589495b241473db952ae5d741826.jpg" height="60"
+                                        width="60" class="rounded-5" alt="avt">
+                                </div>
+                                <div class="col-md-3 col-lg-4 col-sm-4 col-6 flex-col mx-0 ps-0 ms-lg-3 col-xl-4 pe-0">
+                                    <h4 class="text-info text-nowrap overflow-x-hidden">
+                                        Quang Thực
+                                    </h4>
+                                    <span class="text-body-secondary">
+                                        Ngày đăng
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="col-10 col-sm-10 col-md-11 col-lg-11">
+                                <a href="#" class="text-decoration-none">
+                                    <h3 class="card-title text-dark">Cách tạo user bean trên java</h3>
+                                    <p class="card-text text-body-secondary">Tạo như thế này đã đúng chưa</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-4 mb-3">
+                <div class="card" id="question">
+                    <div class="container-fluid">
+                        <div class="container-fluid mt-4 mb-3">
+                            <div class="row mx-2">
+                                <div class="col-md-2 col-lg-1 col-sm-3 col-4 col-xl-1">
+                                    <img src="./img/z5149468489977_82d2589495b241473db952ae5d741826.jpg" height="60"
+                                        width="60" class="rounded-5" alt="avt">
+                                </div>
+                                <div class="col-md-3 col-lg-4 col-sm-4 col-6 flex-col mx-0 ps-0 ms-lg-3 col-xl-4 pe-0">
+                                    <h4 class="text-info text-nowrap overflow-x-hidden">
+                                        Quang Thực
+                                    </h4>
+                                    <span class="text-body-secondary">
+                                        Ngày đăng
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="col-10 col-sm-10 col-md-11 col-lg-11">
+                                <a href="#" class="text-decoration-none">
+                                    <h3 class="card-title text-dark">Cách tạo user bean trên java</h3>
+                                    <p class="card-text text-body-secondary">Tạo như thế này đã đúng chưa</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-4 mb-3">
+                <div class="card" id="question">
+                    <div class="container-fluid">
+                        <div class="container-fluid mt-4 mb-3">
+                            <div class="row mx-2">
+                                <div class="col-md-2 col-lg-1 col-sm-3 col-4 col-xl-1">
+                                    <img src="./img/z5149468489977_82d2589495b241473db952ae5d741826.jpg" height="60"
+                                        width="60" class="rounded-5" alt="avt">
+                                </div>
+                                <div class="col-md-3 col-lg-4 col-sm-4 col-6 flex-col mx-0 ps-0 ms-lg-3 col-xl-4 pe-0">
+                                    <h4 class="text-info text-nowrap overflow-x-hidden">
+                                        Quang Thực
+                                    </h4>
+                                    <span class="text-body-secondary">
+                                        Ngày đăng
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="col-10 col-sm-10 col-md-11 col-lg-11">
+                                <a href="#" class="text-decoration-none">
+                                    <h3 class="card-title text-dark">Cách tạo user bean trên java</h3>
+                                    <p class="card-text text-body-secondary">Tạo như thế này đã đúng chưa</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-4 mb-3">
+                <div class="card" id="question">
+                    <div class="container-fluid">
+                        <div class="container-fluid mt-4 mb-3">
+                            <div class="row mx-2">
+                                <div class="col-md-2 col-lg-1 col-sm-3 col-4 col-xl-1">
+                                    <img src="./img/z5149468489977_82d2589495b241473db952ae5d741826.jpg" height="60"
+                                        width="60" class="rounded-5" alt="avt">
+                                </div>
+                                <div class="col-md-3 col-lg-4 col-sm-4 col-6 flex-col mx-0 ps-0 ms-lg-3 col-xl-4 pe-0">
+                                    <h4 class="text-info text-nowrap overflow-x-hidden">
+                                        Quang Thực
+                                    </h4>
+                                    <span class="text-body-secondary">
+                                        Ngày đăng
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="col-10 col-sm-10 col-md-11 col-lg-11">
+                                <a href="#" class="text-decoration-none">
+                                    <h3 class="card-title text-dark">Cách tạo user bean trên java</h3>
+                                    <p class="card-text text-body-secondary">Tạo như thế này đã đúng chưa</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-3">Đăng ký nhận bản tin</h4>
+                    <p>Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Địa chỉ email của bạn" />
+                        <button type="submit" class="btn btn-primary">Gửi</button>
+                    </form>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-3 text-center"><a href="contact.html" class="text-white text-decoration-none ">Thông
+                            tin liên hệ</a></h4>
+                    <p class="text-center">Hotline: 0917988192</p>
+                    <p class="text-center">Email: thucbqpc087172gmail.com</p>
+                    <p class="text-center">Địa chỉ: 123 Đường ABC, Quận XYZ, TP. Hà Nội</p>
+                </div>
+
+                <div class="col-md-4 mb-4 flex-col">
+                    <h4 class="mb-3">Thông tin khác</h4>
+                    <p class="about">Tổ chức</p>
+                    <p class="about">Sản phẩm</p>
+                    <p class="about">Dịch vụ</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col">
+                    <h4 class="mb-3">Kết nối với chúng tôi</h4>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-secondary text-center py-2 mt-4">
+            <p class="mb-0">@DINO OVERFLOW</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

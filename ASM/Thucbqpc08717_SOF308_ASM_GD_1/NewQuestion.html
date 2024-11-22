@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tạo câu hỏi</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/bgdino.jpg" class="rounded-5" width="85" alt="">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsebleMenuMain" aria-controls="collapsebleMenuMain" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row" id="collapsebleMenuMain">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 col-md-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" aria-current="page">Trang chủ
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="QuestionDetail.html">Câu hỏi</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 col-md-8">
+                        <li class="nav-item w-75">
+                            <form class="d-flex my-2 my-lg-0">
+                                <input class="form-control me-sm-2" type="text" placeholder="Tìm kiếm câu hỏi?" />
+                                <button class="col-2 btn btn-outline-light my-2 my-sm-0" type="submit">
+                                    Tìm kiếm
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 col-md-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Tài khoản</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="Login.html">Đăng nhập</a>
+                                <a class="dropdown-item" href="Register.html">Đăng kí</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container top_content mt-4">
+            <div class="container mt-4">
+                <h2 class="mb-4">Tạo câu hỏi</h2>
+                <form id="createQuestionForm">
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Tiêu đề câu hỏi</label>
+                        <input type="text" class="form-control" id="title" placeholder="Nhập tiêu đề câu hỏi" required>
+                        <div class="form-text">Hãy mô tả vấn đề của bạn một cách rõ ràng.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="questionBody" class="form-label">Nội dung câu hỏi</label>
+                        <textarea class="form-control" id="questionBody" rows="6" placeholder="Mô tả vấn đề của bạn..."
+                            required></textarea>
+                        <div class="form-text">Cung cấp càng nhiều chi tiết càng tốt để giúp người khác hiểu vấn đề của
+                            bạn.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="tags" class="form-label">Thẻ (tags)</label>
+                        <div class="tags-input">
+                            <textarea id="tagsInput" class="form-control" rows="3"
+                                placeholder="Thêm thẻ (nhấn Enter để thêm)"></textarea>
+                            <div id="tagsContainer"></div>
+                        </div>
+                        <div class="form-text">Thêm các thẻ để mô tả vấn đề (ví dụ: html, css, javascript, ...)</div>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="file" class="form-label">Tệp đính kèm (tùy chọn)</label>
+                        <input class="form-control" type="file" id="file">
+                    </div>
+
+                    <div class="d-flex justify-content-end mb-3">
+                        <button type="submit" class="btn btn-warning">Tạo câu hỏi</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-3">Đăng ký nhận bản tin</h4>
+                    <p>Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Địa chỉ email của bạn" />
+                        <button type="submit" class="btn btn-primary">Gửi</button>
+                    </form>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-3 text-center"><a href="contact.html" class="text-white text-decoration-none ">Thông
+                            tin liên hệ</a></h4>
+                    <p class="text-center">Hotline: 0917988192</p>
+                    <p class="text-center">Email: thucbqpc087172gmail.com</p>
+                    <p class="text-center">Địa chỉ: 123 Đường ABC, Quận XYZ, TP. Hà Nội</p>
+                </div>
+
+                <div class="col-md-4 mb-4 flex-col">
+                    <h4 class="mb-3">Thông tin khác</h4>
+                    <p class="about">Tổ chức</p>
+                    <p class="about">Sản phẩm</p>
+                    <p class="about">Dịch vụ</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col">
+                    <h4 class="mb-3">Kết nối với chúng tôi</h4>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-secondary text-center py-2 mt-4">
+            <p class="mb-0">@DINO OVERFLOW</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
