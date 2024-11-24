@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import BaiMotLab5 from '@/views/BaiMotLab5.vue'
-import BaiHaiLab5 from '@/views/BaiHaiLab5.vue'
-import BaiBaLab5 from '@/views/BaiBaLab5.vue'
-import BaiBonLab5 from '@/views/BaiBonlab5.vue'
+import BaiMotLab6 from '@/views/BaiMotLab6.vue'
+import BaiHaiLab6 from '@/views/BaiHaiLab6.vue'
+import BaiBaLab6 from '@/views/BaiBaLab6.vue'
+import BaiBonLab6 from '@/views/BaiBonLab6.vue'
+import BaiNamLab6 from '@/views/BaiNamLab6.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,22 +25,27 @@ const router = createRouter({
     {
       path: '/bai-mot',
       name: 'bai-mot',
-      component: BaiMotLab5,
+      component: BaiMotLab6,
     },
     {
       path: '/bai-hai',
       name: 'bai-hai',
-      component: BaiHaiLab5,
+      component: BaiHaiLab6,
     },
     {
       path: '/bai-ba',
       name: 'bai-ba',
-      component: BaiBaLab5,
+      component: BaiBaLab6,
     },
     {
       path: '/bai-bon',
       name: 'bai-bon',
-      component: BaiBonLab5,
+      component: BaiBonLab6,
+    },
+    {
+      path: '/bai-nam',
+      name: 'bai-nam',
+      component: BaiNamLab6,
     },
   ],
 })

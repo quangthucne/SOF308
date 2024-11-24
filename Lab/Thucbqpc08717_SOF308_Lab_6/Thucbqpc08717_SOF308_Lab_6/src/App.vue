@@ -16,7 +16,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/bai-mot">Bài 1</RouterLink>
         <RouterLink to="/bai-hai">Bài 2</RouterLink>
         <RouterLink to="/bai-ba">Bài 3</RouterLink>
-        <RouterLink to="/bai-bon">Bài 4</RouterLink>"
+        <RouterLink to="/bai-bon">Bài 4</RouterLink>
+        <RouterLink to="/bai-nam">Bài 5</RouterLink>
       </nav>
     </div>
   </header>
